@@ -114,7 +114,7 @@ function handleBubbleCollision(bubbleGroup){
        score=score+1;
     }
 
-   blast = Sprite(bullet.X+60, bullet.y, 50,50);
+   blast = createSprite(bullet.X+60, bullet.y, 50,50);
   blast.addImage(blastImg)
    blast.scale=0.3
  blast.life=20
